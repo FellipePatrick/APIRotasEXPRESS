@@ -1,2 +1,32 @@
-# APIRotasEXPRESS
-Atividade da Unidade 2 de GQS
+# API de Gerenciamento de Pedidos e Rotas
+
+Esta API permite gerenciar pedidos e rotas de entrega, além de determinar a melhor rota para os pedidos. A aplicação foi desenvolvida usando Node.js e Express.
+
+## Funcionalidades
+
+- **GET /pedidos**: Retorna a lista de pedidos.
+- **POST /pedidos**: Cria um novo pedido.
+- **GET /rotas**: Retorna a lista de rotas.
+- **POST /rotas**: Cria uma nova rota.
+- **POST /melhor-rota**: Verifica a melhor rota de entrega para os pedidos.
+
+## Configuração e Execução
+
+### Pré-requisitos
+
+- Node.js (v20 ou superior)
+
+- npm (v10 ou superior)
+
+### Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+2. Instale as dependencias 
+
+    ```bash
+    npm install
+
