@@ -27,6 +27,13 @@ Esta API permite gerenciar pedidos e rotas de entrega, além de determinar a mel
 
 2. Instale as dependencias 
 
-    ```bash
-    npm install
+    ```
+    npm install express
+
+    npm install --save-dev jest
+
+    npm install --save-dev supertest
+
+    `````
+    
 
